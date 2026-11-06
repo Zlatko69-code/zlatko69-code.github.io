@@ -24,3 +24,5 @@ nav{display:flex;gap:26px}nav a{font-size:.85rem;letter-spacing:.15em;text-trans
 .feat .card{border-color:var(--o)}.txt{max-width:760px;line-height:1.7}
 footer{text-align:center;padding:30px;border-top:2px solid;border-image:var(--g) 1;font-size:.85rem;opacity:.8}
 @media(max-width:760px){.burger{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--bg)}nav a{padding:14px 24px;border-bottom:1px solid rgba(47,211,255,.15)}.open nav{display:flex}.bul{columns:1}.wrap{padding:40px 16px}.grid,.feat{grid-template-columns:1fr 1fr;gap:12px}.feat{grid-template-columns:1fr}.cb h3{font-size:.8rem}}
+
+nav a.active{color:var(--c);opacity:1}
