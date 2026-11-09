@@ -26,3 +26,11 @@ footer{text-align:center;padding:30px;border-top:2px solid;border-image:var(--g)
 @media(max-width:760px){.burger{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--bg)}nav a{padding:14px 24px;border-bottom:1px solid rgba(47,211,255,.15)}.open nav{display:flex}.bul{columns:1}.wrap{padding:40px 16px}.grid,.feat{grid-template-columns:1fr 1fr;gap:12px}.feat{grid-template-columns:1fr}.cb h3{font-size:.8rem}}
 
 nav a.active{color:var(--c);opacity:1}
+
+/* The Withering House free demo promo */
+.promo-wrap{padding-bottom:0}.promo{display:flex;align-items:stretch;gap:0;background:linear-gradient(135deg,#0B0F0C,#13201A);border:1px solid #5AFF78;border-radius:16px;overflow:hidden;box-shadow:0 0 40px rgba(90,255,120,.18);transition:.2s}
+.promo:hover{transform:translateY(-3px);box-shadow:0 0 55px rgba(90,255,120,.3)}.promo img{width:min(46%,460px);aspect-ratio:630/500;object-fit:cover;display:block;flex:none}
+.pb{padding:26px 30px;display:flex;flex-direction:column;justify-content:center;gap:12px;color:#D7EBCD}.pb h2{margin:0;font-size:clamp(1.6rem,3.4vw,2.4rem);color:#E9F7E2}.pb p{margin:0;line-height:1.6}
+.pill{align-self:flex-start;font-size:.72rem;font-weight:600;letter-spacing:.2em;color:#0B0F0C;background:#5AFF78;padding:4px 10px;border-radius:20px}.plat{font-size:.85rem;opacity:.8}
+.promo .btn.big{align-self:flex-start;background:#5AFF78;color:#0B0F0C;font-weight:800}
+@media(max-width:760px){.promo{flex-direction:column}.promo img{width:100%}.pb{padding:18px}.promo .btn.big{align-self:stretch;text-align:center}}
